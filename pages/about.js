@@ -56,7 +56,7 @@ export default function About() {
                 <div className="mt-6">
                     <br/>
                     <Link role="button" href="/portfolio" className="btn btn-neutral btn-outline hover:scale-95 hover:shadow-xl hover:font-bold hover:text-white btn-xs sm:btn-sm md:btn-md lg:btn-lg">My Projects</Link>
-                    <DownloadLink href="/Fernando_Aponte_Resume.pdf" fileName="Fernando_Aponte_Resume.pdf"/>
+                    <DownloadLink href="https://fernando-aponte-portfolio-33xazfjve-bysharkster.vercel.app/Fernando_Aponte_Resume.pdf" fileName="Fernando_Aponte_Resume.pdf"/>
                 </div>
             </div>
         </div>
