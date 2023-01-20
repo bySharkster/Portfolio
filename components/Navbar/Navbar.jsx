@@ -12,7 +12,7 @@ export const Navbar = () => {
         <Link href="/about" className="text-white font-medium mr-4">
          About
         </Link>
-        <Link href="/portfolio" className="text-white font-medium mr-4">
+        <Link href="/coming_soon" className="text-white font-medium mr-4">
         Portfolio</Link>
         <Link href="/contact" className="text-white font-medium mr-4">
         Contact
