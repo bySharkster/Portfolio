@@ -5,4 +5,4 @@ export const DownloadLink = ({ href, fileName }) => {
     </a>
 
     );
-};
+}
