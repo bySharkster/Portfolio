@@ -1,8 +1,11 @@
+import Link from "next/link";
+
 export const DownloadLink = ({ href, fileName }) => {
+    
     return (
-            <a href={href} download={fileName} className="btn btn-warning btn-outline hover:scale-95 hover:shadow-xl hover:font-bold hover:text-white btn-xs sm:btn-sm md:btn-md lg:btn-lg">
-        Download
-    </a>
+            <Link type="button" href={href} download={fileName} target="_blank" className="btn-ast sm:btn-ast-sm md:btn-ast-md lg:btn-ast-lg">
+            <span className="buttonDownload">Download</span> 
+            </Link>
 
     );
 }

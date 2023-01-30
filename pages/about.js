@@ -55,7 +55,7 @@ export default function About() {
                 </div>
                 <div className="mt-6">
                     <br/>
-                    <Link disabled role="button" href="/portfolio" className="btn btn-neutral btn-outline hover:scale-95 hover:shadow-xl hover:font-bold hover:text-white btn-xs sm:btn-sm md:btn-md lg:btn-lg">My Projects</Link>
+                    <Link type="button"  href="/coming_soon" className="btn-ast sm:btn-ast-sm md:btn-ast-md lg:btn-ast-lg mr-4"><span>My Projects</span></Link>
                     <DownloadLink href="/Fernando_Aponte_Resume.pdf" fileName="Fernando_Aponte_Resume.pdf"/>
                 </div>
             </div>
