@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function About() {
     return (
-        <div className="hero min-h-screen" style={{ backgroundImage: `url("https://i.ibb.co/yytz9ff/Whats-App-Image-2023-01-15-at-23-26-37.jpg")` }}>
+        <div className="hero min-h-screen" style={{ backgroundImage: `url("bg.jpg")` }}>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="bg-white p-6 rounded-lg shadow-md">
                 <div className="text-2xl font-medium">Fernando J. Aponte-Aponte</div>
