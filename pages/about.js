@@ -53,10 +53,10 @@ export default function About() {
                         </ul>
                     </div>
                 </div>
-                <div className="mt-6">
+                <div className="mt-6 flex justify-center items-center">
                     <br/>
-                    <Link type="button"  href="/coming_soon" className="btn-ast sm:btn-ast-sm md:btn-ast-md lg:btn-ast-lg sm:mr-0 md:mr-2 lg:mr-4"><span>My Projects</span></Link>
-                    <DownloadLink href="/Fernando_Aponte_Resume.pdf" fileName="Fernando_Aponte_Resume.pdf"></DownloadLink>
+                    <div className="flex"><Link type="button"  href="/coming_soon" className="btn-ast sm:btn-ast-sm md:btn-ast-md lg:btn-ast-lg sm:mr-0 md:mr-2 lg:mr-4"><span>My Projects</span></Link></div>
+                    <div className="flex"><DownloadLink href="/Fernando_Aponte_Resume.pdf" fileName="Fernando_Aponte_Resume.pdf"></DownloadLink></div>
                 </div>
             </div>
         </div>
