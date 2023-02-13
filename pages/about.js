@@ -8,11 +8,15 @@ export default function About() {
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="bg-white p-6 rounded-lg shadow-md">
                 <div className="text-2xl font-medium">Fernando J. Aponte-Aponte</div>
-                <div className="flex items-center mt-10">
+                <div className="flex lg:items-center  mt-10">
+                    <div className=" ">
                         <FaPhone className="text-gray-600 mr-2 ml-4" />
-                        <div className="text-gray-700">Personal: (939) 280 - 8824</div>
+                        <div className="text-gray-700 ml-4 text-justify">Personal: (939)280-8824</div>
+                    </div>
+                    <div className=" ">
                         <FaEnvelope className="text-gray-600 mr-2 ml-4" />
-                        <a href="mailto:fernandoaponte0609@gmail.com" className="text-gray-700">fernandoaponte0609@gmail.com</a>
+                        <a href="mailto:fernandoaponte0609@gmail.com" className="text-gray-700 ml-4">fernandoaponte0609@gmail.com</a>
+                    </div>
                 </div>
                 <div className="mt-6">
                     <div className="text-lg font-medium">Objective</div>
