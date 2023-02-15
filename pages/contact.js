@@ -1,9 +1,11 @@
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
 
+import { GoBack } from '@/components/GoBack';
 
 export default function Contact() {
     return (
       <div className="hero min-h-screen" style={{ backgroundImage: `url("https://i.ibb.co/hHpVwKQ/desktop-1920x1080.png")` }}>
+
         <div className="flex mx-auto my-auto mt-4 card  w-96 bg-base-100 shadow-md  hover:shadow-xl scale-95 hover:scale-100">
         <figure><img src="contact.jpg" alt="MeIcon" /></figure>
         <div className="card-body card-glow ">
@@ -21,8 +23,11 @@ export default function Contact() {
         <a href="mailto:fernandoa@apontecorp.com" className="text-gray-700">fernandoa@apontecorp.com</a>
           </div>
         </div>
+
+      </div>    
+
       </div>
-      </div>
-    )
+    
+     )
    
 }

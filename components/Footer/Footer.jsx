@@ -2,8 +2,9 @@ import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 
 export const Footer = () => {
+  
     return(
-  <footer className="bg-gray-900 text-white py-4">
+  <footer className="bg-gray-900 text-white py-4 z-10">
     <div className="container mx-auto flex justify-between">
       <div className="text-sm">
         &copy; Fernando Aponte {new Date().getFullYear()}
@@ -21,5 +22,5 @@ export const Footer = () => {
       </div>
     </div>
   </footer>
-);
+)
 }
