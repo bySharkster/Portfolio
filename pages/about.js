@@ -20,7 +20,7 @@ export default function About() {
                 <div className="mt-6">
                     <div className="text-lg font-medium">Objective</div>
                     <hr/>
-                    <div className="text-gray-700 text-center">Automation Engineer with over a year of experience with a proven track record <br/>of designing and implementing innovative automation solutions to improve efficiency and productivity. Can work with
+                    <div className="text-gray-700 text-center">Automation Engineer with a proven track record <br/>of designing and implementing innovative automation solutions to improve efficiency and productivity. Can work with
                     <br/>programming languages such as Javascript, Python, VBA and query languages like SQL. Also can work
                     <br/>with automation tools like Batch, VMWare, and PLC. With a passion for technology and problemsolving dedicated to <br/> driving results and staying ahead of the curve in the rapidly evolving field of automation engineering.</div>
                 </div>
