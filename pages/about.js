@@ -1,6 +1,7 @@
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { DownloadLink } from "components/DownloadLink";
 import Link from "next/link";
+import { phoneNumber, email } from "@/config";
 
 export default function About() {
   const skills = [
@@ -20,25 +21,22 @@ export default function About() {
 
   return (
     <div className="hero bg-neutral noise">
-      <div className="z-10 p-6 mt-8 mb-8 bg-white rounded-lg shadow-md card-shadow">
+      <div className="z-10 p-2 my-2 bg-white rounded-lg shadow-md md:p-6 md:my-8 card-shadow">
         <div className="text-2xl font-medium">Fernando J. Aponte-Aponte</div>
-        <div className="flex mt-10 lg:items-center">
-          <div className="flex">
-            <div className="flex flex-row text-gray-700">
-              <FaPhone className="ml-4 mr-2 text-gray-600" />
-              Personal: +1 (939) 638-8383
-            </div>
+
+        <div className="flex flex-col justify-around mt-10 text-center lg:flex-row">
+          <div className="flex flex-row text-gray-700 justify-evenly lg:justify-between flex-nowrap">
+            <FaPhone className="text-gray-600 " />
+            <span className="ml-1 lg:ml-4">Personal: {phoneNumber}</span>
           </div>
-          <div className="flex flex-row justify-center text-gray-700">
-            <FaEnvelope className="ml-4 mr-2 text-gray-600" />
-            <a
-              href="mailto:fernandoaponte0609@gmail.com"
-              className="ml-4 text-gray-700"
-            >
-              contact@fernandoaponte.dev
+          <div className="flex flex-row text-gray-700 justify-evenly lg:justify-between flex-nowrap">
+            <FaEnvelope className="text-gray-600 " />
+            <a href="mailto:{email}" className="ml-1 text-gray-700 lg:ml-4">
+              {email}
             </a>
           </div>
         </div>
+
         <div className="mt-6">
           <div className="text-lg font-medium">Objective</div>
           <hr />
