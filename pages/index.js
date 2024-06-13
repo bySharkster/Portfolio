@@ -22,15 +22,20 @@ export default function Home() {
                 Fernando Aponte
               </h1>
               <p className="mb-5 font-serif text-justify indent-4 ">
-                Fernando Aponte, a Software Engineer with over a year of
-                experience, has a proven track record of designing and
-                implementing innovative automation solutions to improve
-                efficiency and productivity. He has a strong background in
-                programming languages such as Javascript, React, Next.JS, and
-                query languages like SQL. Has experience in various automation
-                tools like Batch, VMWare, and PLC. Passionate about technology
-                and problem-solving. Dedicated to driving results and staying
-                ahead in the rapidly evolving tech field.
+                As a seasoned Senior Front End Developer with over five years of
+                experience, I excel in creating dynamic, user-friendly web
+                applications using cutting-edge technologies like HTML5, CSS3,
+                and JavaScript and TypeScript. My expertise extends to modern
+                frameworks such as React, Next.JS, and Vue.js, ensuring
+                responsive and visually appealing interfaces. I have a proven
+                track record of leading technical teams, optimizing web
+                performance, and implementing best practices in version control
+                with Git. My strong problem-solving skills, coupled with a deep
+                understanding of UI/UX principles, enable me to deliver
+                high-quality, scalable solutions that enhance user satisfaction
+                and drive business growth. Let&apos;s connect to discuss how my
+                skills and experience can contribute to your team&apos;s
+                success.
               </p>
               <div className="flex">
                 <Link
