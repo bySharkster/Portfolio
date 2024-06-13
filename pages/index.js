@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Head>
         <title>Fernando Aponte</title>
-        <meta name="description" content="My Online Portfolio" />
+        <meta name="description" content="Fernado Aponte's Digital Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

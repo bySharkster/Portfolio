@@ -21,8 +21,10 @@ export default function About() {
 
   return (
     <div className="hero bg-neutral noise">
-      <div className="z-10 p-2 my-2 bg-white rounded-lg shadow-md md:p-6 md:my-8 card-shadow">
-        <div className="text-2xl font-medium">Fernando J. Aponte-Aponte</div>
+      <div className="z-10 bg-white rounded-lg shadow-md sm:p-2 sm:my-2 md:p-6 md:my-8 card-shadow">
+        <div className="text-2xl font-medium text-center">
+          Fernando J. Aponte-Aponte
+        </div>
 
         <div className="flex flex-col justify-around mt-10 text-center lg:flex-row">
           <div className="flex flex-row text-gray-700 justify-evenly lg:justify-between flex-nowrap">

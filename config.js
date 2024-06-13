@@ -35,6 +35,12 @@ const config = {
       projectUrl: "https://www.albertcarrental.com/",
     },
   ],
+  navPaths: [
+    { url: "/" },
+    { url: "/about" },
+    { url: "/portfolio" },
+    { url: "/contact" },
+  ],
 };
 
 module.exports = config;
