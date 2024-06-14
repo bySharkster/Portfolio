@@ -7,7 +7,7 @@ const config = {
       id: 1,
       title: "Digital Sunsets",
       description:
-        "A collection of digital art pieces that I've created over the years.",
+        "Collaborative Website Project to gather leads from prospect clients interested on website design and development services.",
       imageUrl: "/images/digital-sunsets.jpg",
       projectUrl: "https://digital-sunsets-amber.vercel.app/",
     },
