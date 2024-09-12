@@ -1,6 +1,6 @@
 <p><a target="_blank" href="https://app.eraser.io/workspace/XdDiVoI9RdF0FyhAvZU0" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
-```
+
 # 👋 Hello, I'm Fernando Aponte
 
 <div align="center">
@@ -64,7 +64,7 @@ I'm always excited to collaborate on innovative projects and contribute to team 
   <img src="https://komarev.com/ghpvc/?username=yourusername&style=flat-square&color=blue" alt="Profile Views" />
 </div>
 
-```
+
 
 
 
